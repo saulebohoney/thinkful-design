@@ -7,7 +7,9 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+.container {
+  display: flex;
+}
 .hamburger {
     width: 48px;
     height: 42px;
@@ -15,6 +17,9 @@ body {
     border-radius: 2px;
     box-shadow: 0 0 2px #eeeeef;
     padding: 10px 10px;
+    position: absolute;
+    top:10px;
+    right: 10px;
 }
 
 .hamburger-stripe {
@@ -23,5 +28,7 @@ body {
     margin-bottom: 5px;
 }
 
+.hidden {
+  display: none;
+}
 /* Add your CSS here */
-
