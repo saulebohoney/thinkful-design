@@ -87,6 +87,16 @@ a {
     border: none;
   }
 
+
+  .InnerNavLinks {
+    width: 100%;
+    display: flex;
+    position:absolute;
+    top:62px;
+    left: 0;
+    justify-content: space-around;
+  }
+
   a {
     display:inline;
   }
