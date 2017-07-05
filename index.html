@@ -27,14 +27,15 @@
     </svg>
   </div>
     <!-- Main menu -->
-    <nav class="top-nav">
+    <nav class="top-nav hidden">
       <ul>
         <li class="border-bottom">
-          <a href="#">
+          <a href="#" class="courses">
             Courses
           </a>
           <nav>
-            <ul>
+            <ul class = "InnerNavLinks one hidden">
+
               <li class="inner-links">
                 <a href="#">
                   <img src="http://tf-assets-prod.s3.amazonaws.com/wow-next/course-icons/career.gz.svg" alt="Web Development Bootcamp">
@@ -57,11 +58,11 @@
           </nav>
         </li>
         <li class="border-bottom">
-          <a href="#">
+          <a href="#" class="howItworks">
             How it works
           </a>
           <nav>
-            <ul>
+            <ul class= "InnerNavLinks two hidden">
               <li class="inner-links">
                 <a href="#">
                   <img src="http://tf-assets-prod.s3.amazonaws.com/splash/nav-icons/mentorship.gz.svg" alt="1-on-1 mentorship">
@@ -106,5 +107,18 @@
         </li>
       </ul>
     </nav>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script> $(".courses").click(function() {
+      $(".one").toggleClass("hidden");
+    })
+  </script>
+   <script> $(".howItworks").click(function() {
+      $(".two").toggleClass("hidden");
+    })
+  </script>
+  <script> $(".hamburger").click(function() {
+    $(".top-nav").toggleClass("hidden");
+  })
+  </script>
   </body>
 </html>

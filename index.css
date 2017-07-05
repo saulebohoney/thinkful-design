@@ -14,7 +14,9 @@ img {
 ul {
   list-style-type: none;
   padding-left: 0;
+
 }
+
 
 a {
     text-decoration: none;
@@ -57,5 +59,9 @@ a {
 
 .hidden {
   display: none;
+}
+
+.InnerNavLinks {
+    background-color:#f9fbff;
 }
 /* Add your CSS here */
