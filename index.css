@@ -65,4 +65,34 @@ a {
 .InnerNavLinks {
     background-color:#f9fbff;
 }
-/* Add your CSS here */
+@media (min-width: 575px) {
+  .hamburger {
+    display: none;
+  }
+  .container {
+    display: flex;
+    border-bottom: 1px solid black;
+  }
+
+  .top-nav {
+    display:initial;
+  }
+
+  .top-nav > ul {
+    display: flex;
+    margin:0;
+    padding-top: 18px;
+  }
+  .border-bottom {
+    border: none;
+  }
+
+  a {
+    display:inline;
+  }
+
+  img {
+  width: 80px;
+  display: inline;
+}
+}
