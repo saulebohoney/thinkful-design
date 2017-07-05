@@ -39,19 +39,19 @@
               <li class="inner-links">
                 <a href="#">
                   <img src="http://tf-assets-prod.s3.amazonaws.com/wow-next/course-icons/career.gz.svg" alt="Web Development Bootcamp">
-                  Web Development Bootcamp
+                  <h4>Web Development Bootcamp</h4>
                 </a>
               </li>
               <li class="inner-links">
                 <a href="#">
                   <img src="http://tf-assets-prod.s3.amazonaws.com/splash/data-science/data_science.svg" alt="Data Science">
-                  Data Science Bootcamp
+                  <h4>Data Science Bootcamp</h4>
                 </a>
               </li>
               <li class="inner-links">
                 <a href="#">
                   <img src="http://tf-assets-prod.s3.amazonaws.com/wow-next/splash-nav/master-a-new-skill.gz.svg" alt="All courses">
-                  All courses
+                  <h4>All courses</h4>
                 </a>
               </li>
             </ul>
@@ -66,25 +66,25 @@
               <li class="inner-links">
                 <a href="#">
                   <img src="http://tf-assets-prod.s3.amazonaws.com/splash/nav-icons/mentorship.gz.svg" alt="1-on-1 mentorship">
-                  1-on-1 mentorship
+                  <h4>1-on-1 mentorship</h4>
                 </a>
               </li>
               <li class="inner-links">
                 <a href="#">
                   <img src="http://tf-assets-prod.s3.amazonaws.com/splash/nav-icons/career-services.gz.svg" alt="Career prep">
-                  Career prep
+                  <h4>Career prep</h4>
                 </a>
               </li>
               <li class="inner-links">
                 <a href="#">
                   <img src="http://tf-assets-prod.s3.amazonaws.com/splash/nav-icons/guarantee.gz.svg" alt="Job guarantee">
-                  Web Development job guarantee
+                  <h4>Web Development job guarantee</h4>
                 </a>
               </li>
               <li class="inner-links">
                 <a href="#">
                   <img src="http://tf-assets-prod.s3.amazonaws.com/splash/nav-icons/jobs-report.gz.svg" alt="Student outcomes">
-                  Student outcomes
+                  <h4>Student outcomes</h4>
                 </a>
               </li>
             </ul>
@@ -100,7 +100,7 @@
             Pricing
           </a>
         </li>
-        <li class="border-bottom">
+        <li class="border-bottom sign-in">
           <a href="#">
             Sign in
           </a>
@@ -111,10 +111,12 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script> $(".courses").click(function() {
       $(".one").toggleClass("hidden");
+      $(".two").addClass("hidden");
     })
   </script>
    <script> $(".howItworks").click(function() {
       $(".two").toggleClass("hidden");
+      $(".one").addClass("hidden");
     })
   </script>
   <script> $(".hamburger").click(function() {

@@ -65,6 +65,7 @@ a {
 .InnerNavLinks {
     background-color:#f9fbff;
 }
+
 @media (min-width: 575px) {
   .hamburger {
     display: none;
@@ -75,19 +76,23 @@ a {
   }
 
   .top-nav {
-    display:initial;
+    display: block;
+    width: 100%;
   }
 
   .top-nav > ul {
     display: flex;
     margin:0;
     padding-top: 18px;
+    width:100%
   }
   .border-bottom {
     border: none;
   }
 
-
+  .border-bottom:hover {
+    text-decoration: underline;
+  }
   .InnerNavLinks {
     width: 100%;
     display: flex;
@@ -95,12 +100,25 @@ a {
     top:62px;
     left: 0;
     justify-content: space-around;
+    padding: 45px;
   }
 
+  .inner-links{
+    text-align: center;
+    max-width: 200px
+  }
+
+  .sign-in {
+    margin-left: auto;
+  }
   a {
     display:inline;
   }
 
+  .inner-links > a {
+    display: block;
+
+  }
   img {
   width: 80px;
   display: inline;
