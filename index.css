@@ -8,6 +8,31 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+  display: none;
+}
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #6799ff;
+    padding:15px 15px;
+    display: block;
+}
+.inner-links > a {
+    color: black;
+    padding: 4px 15px;
+}
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  padding:14px 18px;
+}
 .hamburger {
     width: 48px;
     height: 42px;
@@ -24,6 +49,10 @@ body {
     background-color: #6799ff;
     height: 3px;
     margin-bottom: 5px;
+}
+
+.top-nav > ul {
+  padding-left: 0;
 }
 
 .hidden {
